@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #ffffff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.primary-color {
+	color: #fe2753;
+}
+
+.wrap {
+	height: 100vh;
+	padding: 30px;
+}
+
+
+/*
+*
+* CARD INFOS
+* 
+*/
+
+.card__wrap {
+	margin-top: 2.6rem;
+}
+
+.card__wrap h2 {
+	color: #211e2f;
+	font-size: 1.2rem;
+}
+
+.card__wrap h5 {
+	color: #b2afb6;
+	font-size: 0.9rem;
+}
+
+.card__number span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 59px;
+	width: 59px;
+	font-size: 1.3rem;
+	font-weight: 500;
+	background: #f4f5fa;
+	color: #211e2f;
+}
+
+.card__active>span {
+	color: #30b9b1;
+	background: #c3faf5;
+}
+
+.card__info {
+	min-width: 200px;
+}
+
+.img__wrap {
+	text-align: center;
+}
+
+
+/*
+*
+* LOGIN
+* 
+*/
+.section__form {
+	background: #f4f5f9;
+	border-radius: 0 18px 18px 0;
+	padding-left: 11%;
+}
+
+.login__head {
+	text-align: end;
+	height: 120px;
+}
+
+.login__head h3 {
+	font-size: 1.0rem;
+	font-weight: 500;
+	color: #b2afb6;
+}
+
+.section__link {
+	color: #fe2753;
+	font-weight: 600;
+	transition-duration: 500ms;
+}
+
+.section__link:hover {
+	transition-duration: 500ms;
+	text-decoration: none;
+	color: #ff5f7f;
+}
+
+.login__title h3 {
+	font-weight: 600;
+}
+
+.login__title h5 {
+	font-size: 1.1rem;
+	color: #b2afb6;
+}
+
+.head__account {
+	padding: 70px;
+	text-align: left;
+}
+
+.head__account h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #211e2f;
+}
+
+.head__account h5 {
+	color: #b2afb6;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+
+/*
+*
+* FORMULÁRIO
+* 
+*/
+
+.btn__login {
+	float: right;
+	background: #fe2753;
+	padding: 12px 23px 12px 23px;
+	margin-top: 30px;
+	border-radius: 12px;
+	color: white;
+	border: none;
+}
+
+label {
+	font-size: 0.3rem;
+	font-weight: 700;
+	color: #2a2641;
+}
+
+.form__group {
+	margin-top: 30px;
+	width: 70%;
+}
+
+.form__group input {
+	background: #f4f5f9;
+	background-color: white;
+	font-size: 0.9rem;
+	border-radius: 10px;
+	border: none;
+	height: 60px;
+}
+
+.form__group small {
+	margin-top: 0.3 rem;
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+.form__group label {
+	font-size: 1rem;
+}
+
+.form__input {
+	position: relative;
+}
+
+.icon {
+	border: 2px solid #fe2753;
+	border-radius: 50%;
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 15px;
+	right: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon i {
+	font-size: 10px;
+	color: #fe2753;
+	;
+}
+
+/*
+*
+* RESPONSIVIDADE
+* 
+*/
+@media screen and (max-width: 767px) {
+	.section__card {
+		padding: 60px 20px 20px 20px;
+		position: fixed;
+    }
+    .img__wrap{
+       margin: 0!important;
+       padding: 0!important;
+    }
+	.section__form {
+		position: absolute;
+		width: 90%;
+		margin-top: 90vh;
+		left: 5%;
+		border-radius: 10px;
+		box-shadow: 28px 28px 33px #f0f0f0, -28px -28px 33px #ffffff;
+	}
+	.form__group {
+		width: 90%;
+	}
+	.section__bg img {
+		height: 350px;
+	}
+
+	.login_wrap,
+	h4 {
+		font-size: 1rem;
+    }
+    .login__title{
+        text-align: center;
+    }
+    .login__title h5 {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1006px) {
+	.wrap {
+		padding: 0;
+	}
+	.section__form {
+		padding: 20px!important;
+	}
+}

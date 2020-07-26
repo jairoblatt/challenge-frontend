@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/all.min.css">
+   <title>Challenge Frontend</title>
+</head>
+
+<body>
+   <div class="container-fluid">
+      <div class="row wrap">
+
+         <!-- SEÇÃO INFOS  -->
+         <section class="col-sm-12 col-md-5 col-lg-5 offset-md-1 d-flex align-items-center pt-5 pr-5 section__card">
+            <div class="p-2">
+               <!-- 1° PRIMEIRO CARD  -->
+               <div class="m-auto p-auto ">
+                  <div class="card__wrap d-flex align-items-center">
+                     <div class="card__number mr-2 card__active">
+                        <span class="rounded-circle">1</span>
+                     </div>
+                     <div class="card__info">
+                        <h2>Account Settings</h2>
+                        <h5>Setup Your Account Details</h5>
+                     </div>
+                  </div>
+
+                  <!-- 2° PRIMEIRO CARD  -->
+                  <div class="card__wrap d-flex align-items-center">
+                     <div class="card__number mr-2 ">
+                        <span class="rounded-circle">2</span>
+                     </div>
+                     <div class="card__info">
+                        <h2>Address Details</h2>
+                        <h5>Setup Residence Address</h5>
+                     </div>
+                  </div>
+
+                  <!-- 3° PRIMEIRO CARD  -->
+                  <div class="card__wrap d-flex align-items-center">
+                     <div class="card__number mr-2">
+                        <span class="rounded-circle">3</span>
+                     </div>
+                     <div class="card__info">
+                        <h2>Completed!</h2>
+                        <h5>Review and Submit</h5>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- IMAGEM -->
+               <div class="img__wrap pt-5 mt-5">
+                  <img class="pt-2 img-fluid" src="./bg.png" alt="Background Login Form">
+               </div>
+
+            </div>
+         </section>
+         <!-- FIM SEÇÃO INFO -->
+
+         <!-- SEÇÃO LOGIN -->
+         <section class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center align-items-center section__form">
+            <div class="w-100 p-2 m-auto h-75">
+               <!-- SIGNIN -->
+               <div class="login__wrap mr-4 pb-4">
+                  <div class="login__head">
+                     <div class="head__help">
+                        <h3>Having issues? <a href="#" class="section__link">Get Help</a></h3>
+                     </div>
+                  </div>
+                  <div class="login__title text-left">
+                     <h3>Create Account</h3>
+                     <h5>Already have an Account? <a href class="section__link">Sign in</a></h5>
+                  </div>
+               </div>
+
+               <!-- FORMULÁRIO -->
+               <div class="m-auto p-auto">
+                  <form>
+                     <!-- 1° INPUT -->
+                     <div class="form__group">
+                        <label>First Name</label>
+                        <div class="form__input">
+                           <div class="icon">
+                              <i class="fas fa-exclamation"></i>
+                           </div>
+                           <input type="text" class="form-control form-control-lg" placeholder="First Name">
+                        </div>
+                        <small class="form-text primary-color">First name is required</small>
+                     </div>
+
+                     <!-- 2° INPUT -->
+                     <div class="form__group">
+                        <label>Last Name</label>
+                        <div class="form__input">
+                           <div class="icon">
+                              <i class="fas fa-exclamation"></i>
+                           </div>
+                           <input type="text" class="form-control form-control-lg" placeholder="Last Name">
+                        </div>
+                        <small class="form-text primary-color">Last name is required</small>
+                     </div>
+
+                     <!-- BOTÃO -->
+                     <div class="form__group">
+                        <button type="submit" class="btn__login">Next Step <i class="fas fa-arrow-right"></i></button>
+                     </div>
+                  </form>
+                  <!-- FIM FORMULÁRIO -->
+               </div>
+            </div>
+         </section>
+         <!-- FIM SEÇÃO LOGIN  -->
+      </div>
+   </div>
+</body>
+
+</html>
